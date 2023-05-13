@@ -1,5 +1,5 @@
 # Rock-Paper-Scissors
-This is a rock paper scissors game. 
+Rock Paper Scissors game. 
 
 # Sources  <br> 
 Images:"https://pngtree.com/freepng/hand-draw-gesture-of-rock-paper-scissors_5844255.html"  <br> 
