@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.cdnfonts.com/css/60s-scoreboard" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">     
+</head>
+<body>
+  
+  <div class="container-middle">
+    <div class="title">Rock, Paper, Scissors</div>
+    <div class="sub-title">First to five, Wins</div>
+    <div class="score">
+      <div class="human">
+        <div class="human-text">You</div>
+        <div class="human-score">Score:0</div>
+      </div>
+      <div class="draw-win-lose">Draw</div>
+      <div class="computer">
+        <div class="computer-text">Computer</div>
+        <div class="computer-score">Score:0</div>
+      </div>
+      
+    </div>
+    <div class="rock-paper-scissors">
+      <div class="rock"> <img src="images/rock.png" onclick="rock(); " alt="Rock"></div>
+      <div class="paper"> <img src="images/paper.png" alt="Paper" onclick="paper(); "></div>
+      <div class="scissors"><img src="images/scissors.png" alt="Scissors" onclick="scissors(); " ></div>
+    </div>
+  </div>
+    
+<script src="index.js"></script>
+</body>
+</html>

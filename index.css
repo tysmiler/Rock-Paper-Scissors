@@ -1,0 +1,99 @@
+body { 
+  background-color: #343F71;
+  display: flex;
+  height: 100vh;
+
+}
+
+
+
+.container-middle {
+  margin: auto;
+
+}
+
+.title {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fbc40e;
+  font-family: 'Libre Baskerville', serif;
+
+
+}
+
+ .sub-title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 50px;
+  color: #fbc40e;
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.rock-paper-scissors {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+}
+.score {
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  color: #E9D8E4;
+  font-family: '60s Scoreboard', sans-serif;     
+  font-size: 25px; 
+  background-color: black;
+  padding: 20px 0;
+}
+.human, .computer {
+  margin: 0 20px ;
+}
+.computer {
+  display: flex;
+  flex-direction: column;
+}
+
+.computer-score {
+  margin-left: auto;
+}
+
+.green-border{
+  border: 4px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
+}
+
+.red-border {
+  border: 4px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+
+
+
+
+.rock-paper-scissors img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.rock-paper-scissors .paper img{
+  width: 50%;
+}
+
+.rock,
+.paper,
+.scissors {
+  flex: 1;
+  text-align: center;
+  color: #E9D8E4;
+  height: 100%;
+}
+
+.rock:hover,
+.paper:hover,
+.scissors:hover {
+  transform: translate(0, -30px);
+}
